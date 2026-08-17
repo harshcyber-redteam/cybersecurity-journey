@@ -1,0 +1,58 @@
+CYBER SECURITY [CEH] 
+
+
+1] Steps for hacking
+>gathering passive and active information
+>Sacnning the victim machine to identify which ports are open and not open
+>Gaining Access and exploiting the weakness found
+>Maintaining Access without being detected
+
+1)Passive information gathering
+
+>Their is two type of ip addresses one is private ip and other is public ip
+
+>How to get private ip address?
+-open command in window run as administrator 
+-give command ipconfig
+
+>How to get public ip address?
+-go on browser and search, what is my ip address
+
+>How to get ip address of any website?
+-Use command like ping website name.com
+
+*For MAC and Linux use ifconfig
+
+>How to find MTU - Max Transmission Unit ->no of packets that can be transmitted at a time
+ 
+ping cerifiedhacker.com -f -l 1500
+-f = fragment, -l = length
+ping cerifiedhacker.com -f -l 1400
+ping cerifiedhacker.com -f -l 1450
+ping cerifiedhacker.com -f -l 1475
+.........go so on until you get correct value of packets
+
+>For identifying the tools are used in making website, which software are working their we use some tools
+-whois.com
+-builtwith.com
+ .etc
+
+>Their are some website that can not easly hackable
+ex-Google,Facebook,Instagram etc.
+-in this case we can attack on small part of website it is called subdomain.
+To find subdomain we use https://subdomainfinder.c99.nl/
+
+2)Ative information gathering
+
+>Active information gathering is directly getting information of website or person by social media account
+ex-Truecaller,LinkedIn,Justdial,Instagram etc 
+
+
+
+
+
+
+
+
+
+  
